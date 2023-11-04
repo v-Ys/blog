@@ -1,0 +1,15 @@
+@font-face {
+    font-family: futura;
+    src: url('/fonts/Futura.ttf');
+}
+.logo {
+    max-width: 35px;
+    max-height: 35px;
+}
+.main-menu{
+    min-height: 50px;
+}
+.mt-5{
+    /* margin-top: 0px; */
+}
+
