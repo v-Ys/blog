@@ -16,7 +16,7 @@ title = "松TvT"
 [author]
   name = "松TvT"
   image = "img/avatar.png"
-  headline = "I'm only human"
+  # headline = "I'm only human"
   bio = "出自幽谷，迁于乔木"
   links = [
     { github = "https://github.com/v-ys" },
