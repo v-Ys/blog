@@ -4,6 +4,7 @@ MSG += $(shell date)
 #fsak
 all:
 	@cd ./public/
+	@pwd
 	@git add --all
 	@git commit -m "$(MSG)" 
 	@git push
