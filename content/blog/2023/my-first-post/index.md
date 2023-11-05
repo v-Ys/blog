@@ -23,3 +23,5 @@ lastmod: 2023-11-05
 4. 博客主题[Blowfish](https://blowfish.page/)，PC端、移动端适配的都比较好，自定义也很方便
 5. [Godaddy域名绑定以及配置DNS](https://io-oi.me/tech/custom-domains-on-github-pages/)，Godaddy支持支付宝付款，也可以在阿里云购买（需实名）
 6. 生成不同分辨率的[网站图标](https://ibrights.github.io/post/blog20210527/)
+
+
