@@ -3,7 +3,7 @@ MSG += $(shell date)
 
 #fsak
 all:
-	@cd public
+	@cd ./public/
 	@git add --all
 	@git commit -m "$(MSG)" 
 	@git push
