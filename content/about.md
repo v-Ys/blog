@@ -18,7 +18,7 @@ showLikes: false
 ## About Site
 
 - 本站生日：**2023-11-4**
-- 使用 Hugo 搭建，部署在 GitHub Pages 上，详细参考：[如何用 GitHub Pages + Hugo 搭建个人博客](/blog/create-a-wesite-using-github-pages-and-hugo/)
+- 使用 Hugo 搭建，部署在 GitHub Pages 上，详细参考：[如何用 GitHub Pages + Hugo 搭建个人博客](https://cuttontail.blog/blog/create-a-wesite-using-github-pages-and-hugo/
 - **Now** 页面的灵感来自 [Derek Sivers](https://nownownow.com/about)
 
 ---
