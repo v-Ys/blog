@@ -2,6 +2,7 @@
 title: "About"
 showDate: false
 showViews: false
+showLikes: false
 showWordCount: false
 showReadingTime: false
 showTableOfContents: false

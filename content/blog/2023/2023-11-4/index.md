@@ -1,8 +1,8 @@
 ---
 title : "markdown样式测试"
 date: 2023-10-04T15:29:32+08:00
+lastmod:
 tags: ["sundry"]
-lastmod: 
 description: ""
 summary: ""
 ---
@@ -83,7 +83,7 @@ $$
 ![](https://pica.zhimg.com/80/v2-92c7a35b296b54f0d6a06d8ee728bc9c_1440w.webp)
 
 - 插入图片的方法二
-<img src="https://pic2.zhimg.com/80/v2-6b0e05447ac376965cedf9b895239ccd_1440w.webp">
+<img src="https://pica.zhimg.com/80/v2-1994c86d40b31b9faffc4628597ca258_1440w.webp">
 
 ## 9.链接
 
