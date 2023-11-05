@@ -1,6 +1,7 @@
 MSG := "BLOG_TIME:"
 MSG += $(shell date)
 
+#fsak
 all:
 	@cd public
 	@git add --all
