@@ -1,8 +1,8 @@
 ---
 title: "如何用GitHub Pages以及hugo建立个人博客"
-date: 2023-10-03T15:29:32+08:00
+date: 2023-10-04T11:29:32+08:00
 tags: ["html", "css"]
-summary: ""
+lastmod: 2023-11-05
 ---
 
 ## 1. 前言

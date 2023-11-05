@@ -50,7 +50,7 @@ smartTOCHideUnfocusedChildren = true
 
 [article]
   showDate = true
-  showViews = false
+  showViews = true
   showLikes = false
   showDateUpdated = true
   showAuthor = true
@@ -62,15 +62,15 @@ smartTOCHideUnfocusedChildren = true
   showDraftLabel = true
   showEdit = false
   # editURL = "https://github.com/username/repo/"
-  editAppendPath = true
+  editAppendPath = false
   seriesOpened = false
   showHeadingAnchors = true
   showPagination = true
   invertPagination = false
   showReadingTime = true
-  showTableOfContents = false
-  # showRelatedContent = false
-  # relatedContentLimit = 3
+  showTableOfContents = true
+  showRelatedContent = false
+  relatedContentLimit = 3
   showTaxonomies = false
   showAuthorsBadges = false
   showWordCount = true
@@ -93,7 +93,7 @@ smartTOCHideUnfocusedChildren = true
   constrainItemsWidth = false
 
 [sitemap]
-  excludedKinds = ["taxonomy", "term"]
+  excludedKinds = ["article", "term"]
 
 [taxonomy]
   showTermCount = true

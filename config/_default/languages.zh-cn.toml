@@ -8,7 +8,7 @@ title = "松TvT"
   isoCode = "zh-cn"
   rtl = false
   dateFormat = "2006-01-02"
-  logo = "img/logo.png"
+  logo = "img/logo.jpeg"
   # secondaryLogo = "img/logo.png"
   description = "松TvT的博客"
   # copyright = "Copy, _right?_ :thinking_face:"
@@ -16,7 +16,7 @@ title = "松TvT"
 [author]
   name = "松TvT"
   image = "img/avatar.png"
-  # headline = "I'm only human"
+  headline = "I'm only human"
   bio = "出自幽谷，迁于乔木"
   links = [
     { github = "https://github.com/v-ys" },

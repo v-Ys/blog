@@ -1,20 +1,19 @@
 @font-face {
-    font-family: futura;
-    src: url('/fonts/Futura.ttf');
+        font-family: futura;
+        src: url('/fonts/Futura.ttf');
 }
 .logo {
-    max-width: 35px;
-    max-height: 35px;
+        max-width: 35px;
+        max-height: 35px;
 }
 .main-menu{
-    min-height: 50px;
+        min-height: 50px;
 }
 .mt-5{
-    /* margin-top: 0px; */
+        /* margin-top: 0px; */
 }
-
 .rounded-md {
-  border-radius: 0.375rem;
-  border: 1px solid #1D4ED8 !important;
-  color: #1D4ED8 !important; 
+        border-radius: 0.375rem;
+        border: 1px solid #1D4ED8 !important;
+        color: #1D4ED8 !important; 
 }
