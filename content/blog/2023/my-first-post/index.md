@@ -6,7 +6,6 @@ tags: ["html", "css"]
 description: "如何用GitHub Pages + hugo搭建个人博客"
 summary: "如何用GitHub Pages + hugo搭建个人博客"
 keywors: -博客-hugo-gihubpages
-slug: -博客-hugo-gihubpages
 ---
 
 ## 1. 前言
