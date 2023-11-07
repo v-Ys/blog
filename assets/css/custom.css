@@ -128,3 +128,12 @@
   color: #79c0ff;
 }
 
+
+code {
+  color: black !important;
+}
+
+:is(.dark) code {
+  color: #FFFFFF !important;
+}
+

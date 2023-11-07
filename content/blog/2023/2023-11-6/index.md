@@ -9,6 +9,67 @@ keywors: -PTA-PAT-算法
 ---
 {{< katex >}}
 
+## 验证是否素数
+先验证\\(1、2、3\\)，且\\(6=2*3\\)，接下来只需验证\\(6n-1\\)与\\(6n+1\\)
+```c
+int is_prime(int n)
+{
+        if (n <= 1)
+                return 0;
+
+        if (n <= 3)
+                return 1;
+        if (n % 2 == 0 || n % 3 == 0)
+                return 0;
+        for (int i = 5; i * i <= n; i += 6)
+                if (n % i == 0 || n % (i + 2) == 0)
+                        return 0;
+        return 1;
+}
+```
+
+
+## strcpy 和 strdup 基本用法
+`strcpy` 和 `strdup` 都是用于处理字符串的 C 函数，它们的功能相似，但用法略有不同。
+
+1. `strcpy`（String Copy）:
+   - `strcpy` 用于将一个字符串（字符数组）的内容复制到另一个字符数组中。
+   - 它的原型为 `char* strcpy(char* dest, const char* src)`。
+   - `dest` 是目标字符串，`src` 是源字符串。
+   - `strcpy` 将 `src` 的内容复制到 `dest` 中，直到遇到空字符 `'\0'` 为止。
+   - 注意：`strcpy` 不会检查目标数组是否足够大来容纳源字符串的内容，这可能导致缓冲区溢出。因此，在使用 `strcpy` 时，必须确保目标数组足够大，以免发生溢出。
+
+示例：
+
+```c
+char source[] = "Hello, World!";
+char destination[20];
+strcpy(destination, source);
+```
+
+2. `strdup`（String Duplicate）:
+   - `strdup` 用于复制一个字符串，并为新字符串分配足够的内存空间。
+   - `strdup` 并不是标准 C 函数，但它是一种常见的库函数，通常在 POSIX 环境中可用。
+   - `strdup` 的原型通常为 `char* strdup(const char* str)`。
+   - 它接受一个源字符串 `str`，并动态分配足够的内存来存储它，并将其内容复制到新分配的内存中。
+   - 返回值是指向新字符串的指针，你需要负责在使用后释放这个内存，通常使用 `free` 函数。
+
+示例：
+
+```other
+char source[] = "Hello, World!";
+char* duplicate = strdup(source);
+// 使用 duplicate
+free(duplicate); // 释放内存，以避免内存泄漏
+```
+
+总结：
+
+- `strcpy` 用于在已分配的内存中复制字符串，需要手动分配目标数组的内存和确保足够大。
+- `strdup` 用于复制字符串并动态分配内存，更方便，但需要手动释放内存以避免内存泄漏。
+
+
+
 ## 1008 数组元素循环右移问题
 
 注意\\(M\\) 可能会大于\\(N\\)，即\\(M=kN+a\\)，\\(M\\)中大于\\(N\\)的\\(kN\\)部分，只是循环，并无意义，
