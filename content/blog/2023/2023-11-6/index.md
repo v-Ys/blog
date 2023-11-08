@@ -5,7 +5,7 @@ tags: ["PTA","算法"]
 lastmod: 
 description: "PTA 乙级1-20题"
 summary: "PTA 乙级1-20题"
-keywors: -PTA-PAT-算法
+keywords: -PTA-PAT-算法
 ---
 {{< katex >}}
 
