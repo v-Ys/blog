@@ -1,10 +1,11 @@
 ---
 title : "markdown样式测试"
 date: 2023-10-04T15:29:32+08:00
-lastmod:
+lastmod: 2023-11-10
 tags: ["sundry"]
-description: ""
-summary: ""
+description: "markdown-style-test"
+summary: "markdown-style-test"
+url: "/blog/markdown-style"
 ---
 {{< katex >}}
 

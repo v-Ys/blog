@@ -3,9 +3,9 @@ title : ""
 date : {{ .Date }}
 tags: [""]
 lastmod: 
-description: ""
 summary: ""
+description: ""
 keywords:
-slug: 
+url: "/blog/"
 draft: true
 ---

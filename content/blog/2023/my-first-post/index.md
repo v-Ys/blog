@@ -5,7 +5,7 @@ lastmod: 2023-11-06
 tags: ["html", "css"]
 description: "如何用GitHub Pages + hugo搭建个人博客"
 summary: "如何用GitHub Pages + hugo搭建个人博客"
-slug: create-a-wesite-using-githubpages-and-hugo
+url: "/blog/create-a-wesite-using-githubpages-and-hugo"
 keywords: create-wesite-githubpages-hugo
 ---
 

@@ -6,6 +6,7 @@ lastmod:
 description: "PTA 乙级1-20题"
 summary: "PTA 乙级1-20题"
 keywords: -PTA-PAT-算法
+url: "/blog/PTA-1-20"
 ---
 {{< katex >}}
 

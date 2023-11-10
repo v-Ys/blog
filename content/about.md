@@ -10,7 +10,7 @@ showTableOfContents: false
 
 ## About Me
 
-- 我从 **2023-11** 开始写博客，第一篇博客是[我的第一篇博客](/blog/2023/my-first-post/)
+- 我从 **2023-11** 开始写博客，第一篇博客是[我的第一篇博客](/blog/create-a-wesite-using-githubpages-and-hugo/)
 - 在校摸鱼大学生
 
 ---
