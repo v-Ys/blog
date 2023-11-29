@@ -69,11 +69,15 @@
 
 /*函数*/
 .chroma .nf,
+.chroma .nv,
+.chroma .se,
 .chroma .fm{
         color: #6639ba;
 }
 
 :is(.dark .chroma .nf),
+:is(.dark .chroma .nv),
+:is(.dark .chroma .se),
 :is(.dark .chroma .fm) {
         color:#d2a8ff;
 }
