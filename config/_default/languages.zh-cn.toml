@@ -8,14 +8,14 @@ title = "松TvT"
   isoCode = "zh-cn"
   rtl = false
   dateFormat = "2006-01-02"
-  logo = "img/logo.jpeg"
+  logo = "img/logo.png"
   # secondaryLogo = "img/logo.png"
   description = "松TvT的博客"
   # copyright = "Copy, _right?_ :thinking_face:"
 
 [author]
   name = "松TvT"
-  image = "img/avatar.png"
+  image = "img/avatar.jpeg"
   # headline = "I'm only human"
   bio = "出自幽谷，迁于乔木"
   links = [
