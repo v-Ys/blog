@@ -1,7 +1,12 @@
-@font-face {
-        font-family: futura;
-        src: url('/fonts/Futura.ttf');
-}
+/* @font-face { */
+/*         font-family: futura; */
+/*         src: url('/fonts/Futura.ttf'); */
+/* } */
+/**/
+/* @font-face { */
+/*         font-family: garamond; */
+/*         src: url('/fonts/Garamond.ttf'); */
+/* } */
 .logo {
         max-width: 35px;
         max-height: 35px;
@@ -137,10 +142,10 @@ code {
 }
 
 /*markdown strong*/
-.prose :where(strong):not(:where([class~=not-prose],[class~=not-prose] *)) {
-    color: #002fa7;
-}
-
-:is(.dark .prose :where(strong):not(:where([class~=not-prose],[class~=not-prose] *))) {
-    color: #60a5fa;
-}
+/* .prose :where(strong):not(:where([class~=not-prose],[class~=not-prose] *)) { */
+/*     color: #002fa7; */
+/* } */
+/**/
+/* :is(.dark .prose :where(strong):not(:where([class~=not-prose],[class~=not-prose] *))) { */
+/*     color: #60a5fa; */
+/* } */
