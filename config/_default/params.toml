@@ -1,0 +1,114 @@
+# -- Theme Options --
+# Refer to the theme docs for more details about each of these parameters.
+# https://blowfish.page/docs/configuration/#theme-parameters
+
+colorScheme = "blowfish" # blowfish noir
+defaultAppearance = "light" # valid options: light or dark
+autoSwitchAppearance = false
+
+enableSearch = true
+enableCodeCopy = true
+
+# mainSections = ["section1", "section2"]
+# robots = ""
+
+disableImageOptimization = true
+highlightCurrentMenuArea = true
+smartTOC = true
+smartTOCHideUnfocusedChildren = true
+
+# defaultBackgroundImage = "IMAGE.jpg" # used as default for background images 
+# defaultFeaturedImage = "IMAGE.jpg" # used as default for featured images in all articles
+
+# highlightCurrentMenuArea = true
+# smartTOC = true
+# smartTOCHideUnfocusedChildren = true
+
+[header]
+  layout = "fixed" # valid options: basic, fixed, fixed-fill, fixed-fill-blur
+
+[footer]
+  showMenu = false
+  showCopyright = false
+  showThemeAttribution = false
+  howAppearanceSwitcher=false
+  showScrollToTop = true
+
+[homepage]
+  layout = "custom" #: page, profile, hero, card, background, custom
+  homepageImage = "img/1.jpg" # used in: hero, and card
+  showRecent = false
+  showRecentItems = 1
+  showMoreLink = false
+  showMoreLinkDest = "/blog"
+  cardView = false
+  cardViewScreenWidth = false
+  layoutBackgroundBlur = false # only used when layout equals background
+
+[article]
+  showDate = true
+  showViews = true
+  showLikes = true
+  showDateUpdated = true
+  showAuthor = true
+  showHero = true
+  heroStyle = "big" # valid options: basic, big, background, thumbAndBackground
+  layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
+  layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
+  showBreadcrumbs = false
+  showDraftLabel = true
+  showEdit = false
+  # editURL = "https://github.com/username/repo/"
+  editAppendPath = false
+  seriesOpened = false
+  showHeadingAnchors = true
+  showPagination = true
+  invertPagination = false
+  showReadingTime = true
+  showTableOfContents = true
+  showRelatedContent = false
+  relatedContentLimit = 3
+  showTaxonomies = false
+  showAuthorsBadges = false
+  showWordCount = true
+  # sharingLinks = [ "linkedin", "twitter", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram"]
+
+[list]
+  showHero = false
+  # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
+  layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
+  showBreadcrumbs = false
+  showSummary = false
+  showViews = false
+  showLikes = false
+  showTableOfContents = false
+  showCards = false
+  groupByYear = true
+  cardView = false
+  cardViewScreenWidth = false
+  constrainItemsWidth = false
+
+[sitemap]
+  excludedKinds = ["article", "term"]
+
+[taxonomy]
+  showTermCount = true
+  showHero = false
+  # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  showBreadcrumbs = false
+  showViews = false
+  showLikes = false
+  showTableOfContents = false
+  cardView = false
+
+
+[firebase]
+  apiKey ="AIzaSyDYfLGyPOjgEoRwzFCqS36NSWlkd6-C740" 
+  authDomain ="myblog-c0e27.firebaseapp.com" 
+  projectId ="myblog-c0e27" 
+  storageBucket ="myblog-c0e27.appspot.com" 
+  messagingSenderId = "966815772716" 
+  appId = "1:966815772716:web:8f5126123568c7edd06189" 
+  measurementId = "G-HK39NHTR6C" 
+

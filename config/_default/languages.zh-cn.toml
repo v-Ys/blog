@@ -1,0 +1,25 @@
+languageCode = "zh-cn"
+languageName = "Simplified Chinese"
+weight = 1
+title = "松TvT"
+
+[params]
+  displayName = "ZH-CN"
+  isoCode = "zh-cn"
+  rtl = false
+  dateFormat = "2006-01-02"
+  logo = "img/logo.png"
+  # secondaryLogo = "img/logo.png"
+  description = "松TvT的博客"
+  # copyright = "Copy, _right?_ :thinking_face:"
+
+[author]
+  name = "松TvT"
+  image = "img/avatar.jpeg"
+  # headline = "I'm only human"
+  bio = "出自幽谷，迁于乔木"
+  links = [
+    { github = "https://github.com/v-ys" },
+    { youtube = "https://bilibili.com" },
+    { envelope = "mailto:vv.vincent.mys@gmail.com" },
+  ]

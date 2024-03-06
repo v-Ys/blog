@@ -1,0 +1,148 @@
+/**/
+/* @font-face { */
+/*         font-family: garamond; */
+/*         src: url('/fonts/Garamond.ttf'); */
+/* } */
+
+.logo {
+        max-width: 35px;
+        max-height: 35px;
+}
+.main-menu{
+        min-height: 50px;
+}
+
+/*markdown code block*/
+
+.chroma .gp {
+        color: #0550ae;
+}
+
+.chroma .l,
+.chroma .ld,
+.chroma .s,
+.chroma .sa,
+.chroma .sb,
+.chroma .sc,
+.chroma .dl,
+.chroma .sd,
+.chroma .s2,
+.chroma .sh,
+.chroma .si,
+.chroma .sx,
+.chroma .s1,
+.chroma .gi,
+.chroma .go,
+.chroma .gp {
+        color: #0550ae;
+}
+
+:is(.dark .chroma .l),
+:is(.dark .chroma .ld),
+:is(.dark .chroma .s),
+:is(.dark .chroma .sa),
+:is(.dark .chroma .sb),
+:is(.dark .chroma .sc),
+:is(.dark .chroma .dl),
+:is(.dark .chroma .sd),
+:is(.dark .chroma .s2),
+:is(.dark .chroma .sh),
+:is(.dark .chroma .si),
+:is(.dark .chroma .sx),
+:is(.dark .chroma .s1),
+:is(.dark .chroma .gi),
+:is(.dark .chroma .go),
+:is(.dark .chroma .gp) {
+        color: #a5d6ff;
+}
+
+/*关键字*/
+.chroma .k,
+.chroma .kt,
+.chroma .kd{
+        color: #cf222e;
+}
+
+:is(.dark .chroma .k),
+:is(.dark .chroma .kt),
+:is(.dark .chroma .kd){
+        color: #ff7b72;
+}
+
+/*函数*/
+.chroma .nf,
+.chroma .nv,
+.chroma .se,
+.chroma .fm{
+        color: #6639ba;
+}
+
+:is(.dark .chroma .nf),
+:is(.dark .chroma .nv),
+:is(.dark .chroma .se),
+:is(.dark .chroma .fm) {
+        color:#d2a8ff;
+}
+
+/*普通*/
+.chroma .n,
+.chroma .np{
+        color: #1F2329;
+}
+
+:is(.dark .chroma .n),
+:is(.dark .chroma .np){
+        color: #E6EDF3;
+}
+
+/*常量*/
+.chroma .nb,
+.chroma .no{
+        color: #953800;
+}
+
+:is(.dark .chroma .nb),
+:is(.dark .chroma .no){
+        color: #ffa657;
+}
+
+/*数字、运算符*/
+.chroma .o,
+.chroma .mi,
+.chroma .kp{
+        color: #0550ae;
+}
+
+:is(.dark .chroma .o),
+:is(.dark .chroma .kp),
+:is(.dark .chroma .mi){
+        color: #79c0ff;
+}
+
+
+/*markdown inline code*/
+code {
+        color: black !important;
+}
+
+:is(.dark) code {
+        color: #FFFFFF !important;
+}
+
+/*markdown href*/
+:is(.dark .prose :where(a):not(:where([class~="not-prose"], [class~="not-prose"] *))) {
+    color: #60a5fa;
+}
+
+.prose :where(a):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+    color: #002fa7;
+}
+
+/*markdown strong*/
+/* .prose :where(strong):not(:where([class~=not-prose],[class~=not-prose] *)) { */
+/*     color: #002fa7; */
+/* } */
+/**/
+/* :is(.dark .prose :where(strong):not(:where([class~=not-prose],[class~=not-prose] *))) { */
+/*     color: #60a5fa; */
+/* } */
