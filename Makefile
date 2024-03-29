@@ -1,8 +1,8 @@
-# hugo mod get -u
 MSG := "BLOG_TIME:"
 MSG += $(shell date)
 
 all:
+	@hugo mod get -u
 	@hugo && \
 	if git add --all && git commit -m "$(MSG)"; then \
 		git push && echo "\033[32mBlog Repo Success!\033[0m";\
