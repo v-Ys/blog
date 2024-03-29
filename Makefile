@@ -1,3 +1,4 @@
+# hugo mod get -u
 MSG := "BLOG_TIME:"
 MSG += $(shell date)
 
