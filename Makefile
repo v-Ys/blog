@@ -1,4 +1,4 @@
-MSG := "BLOG_TIME:"
+MSG := TIME:
 MSG += $(shell date)
 
 all:
