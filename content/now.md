@@ -16,7 +16,7 @@ showTableOfContents: false
 ---
 ## TODO
 
-- 会好起来的:(
+- :(
 
-<img src="/img/miku.png">
+<img src="/img/miku.webp">
 

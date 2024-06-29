@@ -26,4 +26,4 @@ showTableOfContents: false
 ## Don't be shy, let's connect!
 
 1. {{< icon "email" >}}
-   如果有任何问题，或者其他想要交流的信息，我会很高兴收到你的邮件：**vv.vincent.mys@gmail.com**
+   如果有任何问题，或者其他想要交流的信息，我会很高兴收到你的邮件：**v39333@gmail.com**
